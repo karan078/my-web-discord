@@ -1,0 +1,24 @@
+.my-routes-link a.active:not(:nth-child(5)) {
+    background: gray;
+    color: white;
+    border-radius: 5px;
+}
+.my-routes-link > a{
+    text-decoration: none;
+    color: gray;
+    padding: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-weight: 500;
+}
+.my-routes-link a:nth-child(5){
+    color: white;
+    background:green;
+    border-radius:3px;
+    padding:5px;
+    text-decoration: none;
+    font-weight: 600; 
+}
+.my-routes-link a.active-friend {
+    color: green;
+}

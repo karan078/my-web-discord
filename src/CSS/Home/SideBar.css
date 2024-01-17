@@ -3,3 +3,73 @@
     margin: 0;
     padding: 0;
 }
+.add-server{
+    width:50px;
+    height:50px;
+    border:2px solid black;
+    border-radius:50%;
+    background: #e0d2c7;
+    transition: background 0.5s ease, border-radius 0.5s ease;
+}
+.add-server:hover{
+    background: #44b09e;
+    cursor: pointer;
+    border-radius: 25%;
+}
+.side-icon1 {
+    height: 20px;
+    width: 10px;
+    background: white;
+    border-radius: 10px;
+    position: absolute;
+    left: -15px;
+    align-self: center;
+    transition: opacity 0.5s ease, width 0.5s ease; /* Add width transition */
+}
+
+.discover-server {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background: #e0d2c7;
+    transition: background 0.5s ease, border-radius 0.5s ease;
+}
+
+.discover-server:hover {
+    background: #44b09e;
+    cursor: pointer;
+    border-radius: 25%;
+    opacity: 1;
+}
+
+
+.download-app{
+    width:50px;
+    height:50px;
+    border:2px solid black;
+    border-radius:50%;
+    background: #e0d2c7;
+    transition: background 0.5s ease, border-radius 0.5s ease;
+}
+
+.side-icon {
+    height: 20px;
+    width: 10px;
+    background: white;
+    border-radius: 10px;
+    position: absolute;
+    left: -15px;
+    align-self: center;
+    transition: width 0.5s ease;
+}
+
+.download-app:hover {
+    background: #44b09e;
+    cursor: pointer;
+    border-radius: 25%;
+}
+
+/* .download-app:hover .side-icon {
+    width: "10px";
+} */
